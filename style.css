@@ -57,6 +57,7 @@ p {
 
 .calculator {
     border-top: 5px solid hsl(212, 86%, 64%);
+    order: 2;
 }
 
 .box h2 {
@@ -66,7 +67,6 @@ p {
 .box p {
     font-size: 14px;
     margin: 0.5rem 0 2rem;
-    /* text-align: justify; */
 }
 
 .box img {
@@ -76,4 +76,14 @@ p {
 
 footer {
     text-align: center;
+}
+
+@media (min-width: 1179px) {
+    .box-side {
+        transform: translateY(50%);
+    }
+
+    .karma {
+        order: 4;
+    }
 }
